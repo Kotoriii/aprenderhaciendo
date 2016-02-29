@@ -1,0 +1,146 @@
+C:\Users\Christian\Downloads\lego\LEGO Test\Fakes\MailChimp.fakes : warning : Cannot generate stub for MailChimp.Types.IValue: type is not visible to exported or assembly(MailChimp.Fakes).
+C:\Users\Christian\Downloads\lego\LEGO Test\Fakes\MailChimp.fakes : warning : Cannot generate stub for MailChimp.Types.MCNull`1: type is a value type.
+C:\Users\Christian\Downloads\lego\LEGO Test\Fakes\MailChimp.fakes : warning : Cannot generate stub for MailChimp.Types.MCBool: type is a value type.
+C:\Users\Christian\Downloads\lego\LEGO Test\Fakes\MailChimp.fakes : warning : Cannot generate stub for MailChimp.Types.MCDateTime: type is a value type.
+C:\Users\Christian\Downloads\lego\LEGO Test\Fakes\MailChimp.fakes : warning : Cannot generate stub for MailChimp.Types.LineReader: type is not visible to exported or assembly(MailChimp.Fakes).
+C:\Users\Christian\Downloads\lego\LEGO Test\Fakes\MailChimp.fakes : warning : Cannot generate stub for MailChimp.Types.MCSeq`1: type has no family visible contructors.
+C:\Users\Christian\Downloads\lego\LEGO Test\Fakes\MailChimp.fakes : warning : Cannot generate stub for MailChimp.Types.NestedDictValue: type has no family visible contructors.
+C:\Users\Christian\Downloads\lego\LEGO Test\Fakes\MailChimp.fakes : warning : Cannot generate stub for MailChimp.Types.SortDirection: type is a value type.
+C:\Users\Christian\Downloads\lego\LEGO Test\Fakes\MailChimp.fakes : warning : Cannot generate stub for MailChimp.Types.Error: type has no family visible contructors.
+C:\Users\Christian\Downloads\lego\LEGO Test\Fakes\MailChimp.fakes : warning : Cannot generate stub for MailChimp.Types.WebMethod: type is a value type.
+C:\Users\Christian\Downloads\lego\LEGO Test\Fakes\MailChimp.fakes : warning : Cannot generate stub for MailChimp.Types.Format: type is a value type.
+C:\Users\Christian\Downloads\lego\LEGO Test\Fakes\MailChimp.fakes : warning : Cannot generate stub for MailChimp.Types.EmailError: type is sealed.
+C:\Users\Christian\Downloads\lego\LEGO Test\Fakes\MailChimp.fakes : warning : Cannot generate stub for MailChimp.Types.EmailErrors: type is sealed.
+C:\Users\Christian\Downloads\lego\LEGO Test\Fakes\MailChimp.fakes : warning : Cannot generate stub for MailChimp.MCApi: type is sealed.
+C:\Users\Christian\Downloads\lego\LEGO Test\Fakes\MailChimp.fakes : warning : Cannot generate stub for MailChimp.ExportApi: type is sealed.
+C:\Users\Christian\Downloads\lego\LEGO Test\Fakes\MailChimp.fakes : warning : Cannot generate stub for MailChimp.MandrillApi: type is sealed.
+C:\Users\Christian\Downloads\lego\LEGO Test\Fakes\MailChimp.fakes : warning : Cannot generate stub for MailChimp.WebhooksListener: type is sealed.
+C:\Users\Christian\Downloads\lego\LEGO Test\Fakes\MailChimp.fakes : warning : Cannot generate stub for MailChimp.WebhooksHelper: type is sealed.
+C:\Users\Christian\Downloads\lego\LEGO Test\Fakes\MailChimp.fakes : warning : Cannot generate stub for MailChimp.Types.Webhooks: type is sealed.
+C:\Users\Christian\Downloads\lego\LEGO Test\Fakes\MailChimp.fakes : warning : Cannot generate stub for <StartupCode$MailChimp>.$Webhooks: type is sealed.
+C:\Users\Christian\Downloads\lego\LEGO Test\Fakes\MailChimp.fakes : warning : Cannot generate stub for MailChimp.MandrillApiModule: type is sealed.
+C:\Users\Christian\Downloads\lego\LEGO Test\Fakes\MailChimp.fakes : warning : Cannot generate stub for MailChimp.MandrillHelper: type is sealed.
+C:\Users\Christian\Downloads\lego\LEGO Test\Fakes\MailChimp.fakes : warning : Cannot generate stub for <StartupCode$MailChimp>.$MandrillApi: type is sealed.
+C:\Users\Christian\Downloads\lego\LEGO Test\Fakes\MailChimp.fakes : warning : Cannot generate stub for MailChimp.ExportApiModule: type is sealed.
+C:\Users\Christian\Downloads\lego\LEGO Test\Fakes\MailChimp.fakes : warning : Cannot generate stub for MailChimp.ExportHelper: type is sealed.
+C:\Users\Christian\Downloads\lego\LEGO Test\Fakes\MailChimp.fakes : warning : Cannot generate stub for <StartupCode$MailChimp>.$ExportApi: type is sealed.
+C:\Users\Christian\Downloads\lego\LEGO Test\Fakes\MailChimp.fakes : warning : Cannot generate stub for MailChimp.MCApiModule: type is sealed.
+C:\Users\Christian\Downloads\lego\LEGO Test\Fakes\MailChimp.fakes : warning : Cannot generate stub for MailChimp.MCHelper: type is sealed.
+C:\Users\Christian\Downloads\lego\LEGO Test\Fakes\MailChimp.fakes : warning : Cannot generate stub for <StartupCode$MailChimp>.$MCApi: type is sealed.
+C:\Users\Christian\Downloads\lego\LEGO Test\Fakes\MailChimp.fakes : warning : Cannot generate stub for MailChimp.Types.Mandrill: type is sealed.
+C:\Users\Christian\Downloads\lego\LEGO Test\Fakes\MailChimp.fakes : warning : Cannot generate stub for MailChimp.Types.Export: type is sealed.
+C:\Users\Christian\Downloads\lego\LEGO Test\Fakes\MailChimp.fakes : warning : Cannot generate stub for MailChimp.Types.GoldenMonkeys: type is sealed.
+C:\Users\Christian\Downloads\lego\LEGO Test\Fakes\MailChimp.fakes : warning : Cannot generate stub for MailChimp.Types.Helper: type is sealed.
+C:\Users\Christian\Downloads\lego\LEGO Test\Fakes\MailChimp.fakes : warning : Cannot generate stub for MailChimp.Types.Ecommerce: type is sealed.
+C:\Users\Christian\Downloads\lego\LEGO Test\Fakes\MailChimp.fakes : warning : Cannot generate stub for MailChimp.Types.Template: type is sealed.
+C:\Users\Christian\Downloads\lego\LEGO Test\Fakes\MailChimp.fakes : warning : Cannot generate stub for MailChimp.Types.Folder: type is sealed.
+C:\Users\Christian\Downloads\lego\LEGO Test\Fakes\MailChimp.fakes : warning : Cannot generate stub for MailChimp.Types.Campaign: type is sealed.
+C:\Users\Christian\Downloads\lego\LEGO Test\Fakes\MailChimp.fakes : warning : Cannot generate stub for MailChimp.Types.List: type is sealed.
+C:\Users\Christian\Downloads\lego\LEGO Test\Fakes\MailChimp.fakes : warning : Cannot generate stub for MailChimp.Types.Security: type is sealed.
+C:\Users\Christian\Downloads\lego\LEGO Test\Fakes\MailChimp.fakes : warning : Cannot generate stub for <StartupCode$MailChimp>.$MCTypes: type is sealed.
+C:\Users\Christian\Downloads\lego\LEGO Test\Fakes\MailChimp.fakes : warning : Cannot generate stub for MailChimp.Types.ApiImpl: type is sealed.
+C:\Users\Christian\Downloads\lego\LEGO Test\Fakes\MailChimp.fakes : warning : Cannot generate stub for MailChimp.Types.ApiHelper: type is sealed.
+C:\Users\Christian\Downloads\lego\LEGO Test\Fakes\MailChimp.fakes : warning : Cannot generate stub for MailChimp.Types.MCExceptionModule: type is sealed.
+C:\Users\Christian\Downloads\lego\LEGO Test\Fakes\MailChimp.fakes : warning : Cannot generate stub for MailChimp.Types.NestedDictHelper: type is sealed.
+C:\Users\Christian\Downloads\lego\LEGO Test\Fakes\MailChimp.fakes : warning : Cannot generate stub for MailChimp.Types.MCSeqModule: type is sealed.
+C:\Users\Christian\Downloads\lego\LEGO Test\Fakes\MailChimp.fakes : warning : Cannot generate stub for MailChimp.Types.Operators: type is sealed.
+C:\Users\Christian\Downloads\lego\LEGO Test\Fakes\MailChimp.fakes : warning : Cannot generate stub for MailChimp.Types.MCNull: type is sealed.
+C:\Users\Christian\Downloads\lego\LEGO Test\Fakes\MailChimp.fakes : warning : Cannot generate stub for MailChimp.Types.OptModule: type is sealed.
+C:\Users\Christian\Downloads\lego\LEGO Test\Fakes\MailChimp.fakes : warning : Cannot generate stub for MailChimp.Types.InputModule: type is sealed.
+C:\Users\Christian\Downloads\lego\LEGO Test\Fakes\MailChimp.fakes : warning : Cannot generate stub for MailChimp.Types.InputHelper: type is sealed.
+C:\Users\Christian\Downloads\lego\LEGO Test\Fakes\MailChimp.fakes : warning : Cannot generate stub for MailChimp.Types.ReflectionHelper: type is sealed.
+C:\Users\Christian\Downloads\lego\LEGO Test\Fakes\MailChimp.fakes : warning : Cannot generate stub for MailChimp.Types.Common: type is sealed.
+C:\Users\Christian\Downloads\lego\LEGO Test\Fakes\MailChimp.fakes : warning : Cannot generate stub for <StartupCode$MailChimp>.$Common: type is sealed.
+C:\Users\Christian\Downloads\lego\LEGO Test\Fakes\MailChimp.fakes : warning : Cannot generate stub for <StartupCode$MailChimp>.$AssemblyInfo: type is sealed.
+C:\Users\Christian\Downloads\lego\LEGO Test\Fakes\MailChimp.fakes : warning : Cannot generate stub for <StartupCode$MailChimp>.$.NETFramework\,Version=v4.0.AssemblyAttributes: type is sealed.
+C:\Users\Christian\Downloads\lego\LEGO Test\Fakes\MailChimp.fakes : warning : Cannot generate shim for MailChimp.Types.IInput: type is an interface.
+C:\Users\Christian\Downloads\lego\LEGO Test\Fakes\MailChimp.fakes : warning : Cannot generate shim for MailChimp.Types.IValue: type is an interface.
+C:\Users\Christian\Downloads\lego\LEGO Test\Fakes\MailChimp.fakes : warning : Cannot generate shim for MailChimp.Types.LineReader: type is not visible to exported or assembly(MailChimp.Fakes).
+C:\Users\Christian\Downloads\lego\LEGO Test\Fakes\MailChimp.fakes : warning : Cannot generate shim for MailChimp.Types.MCSeq`1+Sn@DebugTypeProxy: type is not visible to exported or assembly(MailChimp.Fakes).
+C:\Users\Christian\Downloads\lego\LEGO Test\Fakes\MailChimp.fakes : warning : Cannot generate shim for MailChimp.Types.MCSeq`1+Sq@DebugTypeProxy: type is not visible to exported or assembly(MailChimp.Fakes).
+C:\Users\Christian\Downloads\lego\LEGO Test\Fakes\MailChimp.fakes : warning : Cannot generate shim for MailChimp.Types.NestedDictValue+Dict@DebugTypeProxy: type is not visible to exported or assembly(MailChimp.Fakes).
+C:\Users\Christian\Downloads\lego\LEGO Test\Fakes\MailChimp.fakes : warning : Cannot generate shim for MailChimp.Types.NestedDictValue+Value@DebugTypeProxy: type is not visible to exported or assembly(MailChimp.Fakes).
+C:\Users\Christian\Downloads\lego\LEGO Test\Fakes\MailChimp.fakes : warning : Cannot generate shim for MailChimp.Types.NestedDictValue+_Empty: type is not visible to exported or assembly(MailChimp.Fakes).
+C:\Users\Christian\Downloads\lego\LEGO Test\Fakes\MailChimp.fakes : warning : Cannot generate shim for MailChimp.Types.NestedDictValue+_Empty@DebugTypeProxy: type is not visible to exported or assembly(MailChimp.Fakes).
+C:\Users\Christian\Downloads\lego\LEGO Test\Fakes\MailChimp.fakes : warning : Cannot generate shim for MailChimp.Types.SortDirection: type is an enum.
+C:\Users\Christian\Downloads\lego\LEGO Test\Fakes\MailChimp.fakes : warning : Cannot generate shim for MailChimp.Types.WebMethod: type is an enum.
+C:\Users\Christian\Downloads\lego\LEGO Test\Fakes\MailChimp.fakes : warning : Cannot generate shim for MailChimp.Types.Format: type is an enum.
+C:\Users\Christian\Downloads\lego\LEGO Test\Fakes\MailChimp.fakes : warning : Cannot generate shim for MailChimp.Types.EmailErrors: type is not visible to exported or assembly(MailChimp.Fakes).
+C:\Users\Christian\Downloads\lego\LEGO Test\Fakes\MailChimp.fakes : warning : Cannot generate shim for MailChimp.WebhooksHelper: type is not visible to exported or assembly(MailChimp.Fakes).
+C:\Users\Christian\Downloads\lego\LEGO Test\Fakes\MailChimp.fakes : warning : Cannot generate shim for MailChimp.Types.Webhooks+ErrorEventHandler: type is a delegate.
+C:\Users\Christian\Downloads\lego\LEGO Test\Fakes\MailChimp.fakes : warning : Cannot generate shim for MailChimp.Types.Webhooks+WebhookType: type is an enum.
+C:\Users\Christian\Downloads\lego\LEGO Test\Fakes\MailChimp.fakes : warning : Cannot generate shim for MailChimp.Types.Webhooks+WebhooksEventHandler: type is a delegate.
+C:\Users\Christian\Downloads\lego\LEGO Test\Fakes\MailChimp.fakes : warning : Cannot generate shim for <StartupCode$MailChimp>.$Webhooks: type is not supported because of internal limitations.
+C:\Users\Christian\Downloads\lego\LEGO Test\Fakes\MailChimp.fakes : warning : Cannot generate shim for MailChimp.MandrillApiModule: type is not visible to exported or assembly(MailChimp.Fakes).
+C:\Users\Christian\Downloads\lego\LEGO Test\Fakes\MailChimp.fakes : warning : Cannot generate shim for MailChimp.MandrillHelper: type is not visible to exported or assembly(MailChimp.Fakes).
+C:\Users\Christian\Downloads\lego\LEGO Test\Fakes\MailChimp.fakes : warning : Cannot generate shim for <StartupCode$MailChimp>.$MandrillApi: type is not supported because of internal limitations.
+C:\Users\Christian\Downloads\lego\LEGO Test\Fakes\MailChimp.fakes : warning : Cannot generate shim for MailChimp.ExportApiModule: type is not visible to exported or assembly(MailChimp.Fakes).
+C:\Users\Christian\Downloads\lego\LEGO Test\Fakes\MailChimp.fakes : warning : Cannot generate shim for MailChimp.ExportHelper: type is not visible to exported or assembly(MailChimp.Fakes).
+C:\Users\Christian\Downloads\lego\LEGO Test\Fakes\MailChimp.fakes : warning : Cannot generate shim for <StartupCode$MailChimp>.$ExportApi: type is not supported because of internal limitations.
+C:\Users\Christian\Downloads\lego\LEGO Test\Fakes\MailChimp.fakes : warning : Cannot generate shim for MailChimp.MCApiModule: type is not visible to exported or assembly(MailChimp.Fakes).
+C:\Users\Christian\Downloads\lego\LEGO Test\Fakes\MailChimp.fakes : warning : Cannot generate shim for MailChimp.MCHelper: type is not visible to exported or assembly(MailChimp.Fakes).
+C:\Users\Christian\Downloads\lego\LEGO Test\Fakes\MailChimp.fakes : warning : Cannot generate shim for <StartupCode$MailChimp>.$MCApi: type is not supported because of internal limitations.
+C:\Users\Christian\Downloads\lego\LEGO Test\Fakes\MailChimp.fakes : warning : Cannot generate shim for MailChimp.Types.Mandrill+EventType: type is an enum.
+C:\Users\Christian\Downloads\lego\LEGO Test\Fakes\MailChimp.fakes : warning : Cannot generate shim for MailChimp.Types.Mandrill+Messages+Status: type is an enum.
+C:\Users\Christian\Downloads\lego\LEGO Test\Fakes\MailChimp.fakes : warning : Cannot generate shim for MailChimp.Types.Mandrill+Messages+ToMessage@3034: type is not visible to exported or assembly(MailChimp.Fakes).
+C:\Users\Christian\Downloads\lego\LEGO Test\Fakes\MailChimp.fakes : warning : Cannot generate shim for MailChimp.Types.Mandrill+Messages+getAttachments@3020-1: type is not visible to exported or assembly(MailChimp.Fakes).
+C:\Users\Christian\Downloads\lego\LEGO Test\Fakes\MailChimp.fakes : warning : Cannot generate shim for MailChimp.Types.Mandrill+Rejections+ListAddResult: type is not visible to exported or assembly(MailChimp.Fakes).
+C:\Users\Christian\Downloads\lego\LEGO Test\Fakes\MailChimp.fakes : warning : Cannot generate shim for MailChimp.Types.Mandrill+Rejections+ListDelResult: type is not visible to exported or assembly(MailChimp.Fakes).
+C:\Users\Christian\Downloads\lego\LEGO Test\Fakes\MailChimp.fakes : warning : Cannot generate shim for MailChimp.Types.Mandrill+Rejections+RejectReason: type is an enum.
+C:\Users\Christian\Downloads\lego\LEGO Test\Fakes\MailChimp.fakes : warning : Cannot generate shim for MailChimp.Types.Mandrill+RenderResult: type is not visible to exported or assembly(MailChimp.Fakes).
+C:\Users\Christian\Downloads\lego\LEGO Test\Fakes\MailChimp.fakes : warning : Cannot generate shim for MailChimp.Types.Helper+DetailType: type is an enum.
+C:\Users\Christian\Downloads\lego\LEGO Test\Fakes\MailChimp.fakes : warning : Cannot generate shim for MailChimp.Types.Helper+DomainStatus: type is an enum.
+C:\Users\Christian\Downloads\lego\LEGO Test\Fakes\MailChimp.fakes : warning : Cannot generate shim for MailChimp.Types.Helper+OrderType: type is an enum.
+C:\Users\Christian\Downloads\lego\LEGO Test\Fakes\MailChimp.fakes : warning : Cannot generate shim for MailChimp.Types.Helper+PlanType: type is an enum.
+C:\Users\Christian\Downloads\lego\LEGO Test\Fakes\MailChimp.fakes : warning : Cannot generate shim for MailChimp.Types.Template+Type: type is an enum.
+C:\Users\Christian\Downloads\lego\LEGO Test\Fakes\MailChimp.fakes : warning : Cannot generate shim for MailChimp.Types.Folder+Type: type is an enum.
+C:\Users\Christian\Downloads\lego\LEGO Test\Fakes\MailChimp.fakes : warning : Cannot generate shim for MailChimp.Types.Campaign+ArchiveType: type is an enum.
+C:\Users\Christian\Downloads\lego\LEGO Test\Fakes\MailChimp.fakes : warning : Cannot generate shim for MailChimp.Types.Campaign+CndParser: type is not visible to exported or assembly(MailChimp.Fakes).
+C:\Users\Christian\Downloads\lego\LEGO Test\Fakes\MailChimp.fakes : warning : Cannot generate shim for MailChimp.Types.Campaign+Content+MailChimp-Types-IInput-ToInput@1358: type is not visible to exported or assembly(MailChimp.Fakes).
+C:\Users\Christian\Downloads\lego\LEGO Test\Fakes\MailChimp.fakes : warning : Cannot generate shim for MailChimp.Types.Campaign+Content+Merge@1352: type is not visible to exported or assembly(MailChimp.Fakes).
+C:\Users\Christian\Downloads\lego\LEGO Test\Fakes\MailChimp.fakes : warning : Cannot generate shim for MailChimp.Types.Campaign+ContentType: type is an enum.
+C:\Users\Christian\Downloads\lego\LEGO Test\Fakes\MailChimp.fakes : warning : Cannot generate shim for MailChimp.Types.Campaign+EventType: type is an enum.
+C:\Users\Christian\Downloads\lego\LEGO Test\Fakes\MailChimp.fakes : warning : Cannot generate shim for MailChimp.Types.Campaign+Match: type is an enum.
+C:\Users\Christian\Downloads\lego\LEGO Test\Fakes\MailChimp.fakes : warning : Cannot generate shim for MailChimp.Types.Campaign+OffsetDir: type is an enum.
+C:\Users\Christian\Downloads\lego\LEGO Test\Fakes\MailChimp.fakes : warning : Cannot generate shim for MailChimp.Types.Campaign+OffsetUnits: type is an enum.
+C:\Users\Christian\Downloads\lego\LEGO Test\Fakes\MailChimp.fakes : warning : Cannot generate shim for MailChimp.Types.Campaign+PickWinnersOption: type is an enum.
+C:\Users\Christian\Downloads\lego\LEGO Test\Fakes\MailChimp.fakes : warning : Cannot generate shim for MailChimp.Types.Campaign+ReportData+ActionType: type is an enum.
+C:\Users\Christian\Downloads\lego\LEGO Test\Fakes\MailChimp.fakes : warning : Cannot generate shim for MailChimp.Types.Campaign+ScheduleType: type is an enum.
+C:\Users\Christian\Downloads\lego\LEGO Test\Fakes\MailChimp.fakes : warning : Cannot generate shim for MailChimp.Types.Campaign+SegmentOption: type is an enum.
+C:\Users\Christian\Downloads\lego\LEGO Test\Fakes\MailChimp.fakes : warning : Cannot generate shim for MailChimp.Types.Campaign+SegmentValue: type is not visible to exported or assembly(MailChimp.Fakes).
+C:\Users\Christian\Downloads\lego\LEGO Test\Fakes\MailChimp.fakes : warning : Cannot generate shim for MailChimp.Types.Campaign+Stats+MessageType: type is an enum.
+C:\Users\Christian\Downloads\lego\LEGO Test\Fakes\MailChimp.fakes : warning : Cannot generate shim for MailChimp.Types.Campaign+Stats+SendStatus: type is an enum.
+C:\Users\Christian\Downloads\lego\LEGO Test\Fakes\MailChimp.fakes : warning : Cannot generate shim for MailChimp.Types.Campaign+Status: type is an enum.
+C:\Users\Christian\Downloads\lego\LEGO Test\Fakes\MailChimp.fakes : warning : Cannot generate shim for MailChimp.Types.Campaign+TestEmailType: type is an enum.
+C:\Users\Christian\Downloads\lego\LEGO Test\Fakes\MailChimp.fakes : warning : Cannot generate shim for MailChimp.Types.Campaign+Type: type is an enum.
+C:\Users\Christian\Downloads\lego\LEGO Test\Fakes\MailChimp.fakes : warning : Cannot generate shim for MailChimp.Types.Campaign+TypeOptions+Helper: type is not visible to exported or assembly(MailChimp.Fakes).
+C:\Users\Christian\Downloads\lego\LEGO Test\Fakes\MailChimp.fakes : warning : Cannot generate shim for MailChimp.Types.List+EmailType: type is an enum.
+C:\Users\Christian\Downloads\lego\LEGO Test\Fakes\MailChimp.fakes : warning : Cannot generate shim for MailChimp.Types.List+FieldType: type is an enum.
+C:\Users\Christian\Downloads\lego\LEGO Test\Fakes\MailChimp.fakes : warning : Cannot generate shim for MailChimp.Types.List+GroupingType: type is an enum.
+C:\Users\Christian\Downloads\lego\LEGO Test\Fakes\MailChimp.fakes : warning : Cannot generate shim for MailChimp.Types.List+MemberActionType: type is an enum.
+C:\Users\Christian\Downloads\lego\LEGO Test\Fakes\MailChimp.fakes : warning : Cannot generate shim for MailChimp.Types.List+MemberStatus: type is an enum.
+C:\Users\Christian\Downloads\lego\LEGO Test\Fakes\MailChimp.fakes : warning : Cannot generate shim for MailChimp.Types.List+NoteAction: type is an enum.
+C:\Users\Christian\Downloads\lego\LEGO Test\Fakes\MailChimp.fakes : warning : Cannot generate shim for MailChimp.Types.List+SortField: type is an enum.
+C:\Users\Christian\Downloads\lego\LEGO Test\Fakes\MailChimp.fakes : warning : Cannot generate shim for MailChimp.Types.List+UnsubscribeReason: type is an enum.
+C:\Users\Christian\Downloads\lego\LEGO Test\Fakes\MailChimp.fakes : warning : Cannot generate shim for <StartupCode$MailChimp>.$MCTypes: type is not supported because of internal limitations.
+C:\Users\Christian\Downloads\lego\LEGO Test\Fakes\MailChimp.fakes : warning : Cannot generate shim for MailChimp.Types.ApiImpl: type is not visible to exported or assembly(MailChimp.Fakes).
+C:\Users\Christian\Downloads\lego\LEGO Test\Fakes\MailChimp.fakes : warning : Cannot generate shim for MailChimp.Types.ApiHelper: type is not visible to exported or assembly(MailChimp.Fakes).
+C:\Users\Christian\Downloads\lego\LEGO Test\Fakes\MailChimp.fakes : warning : Cannot generate shim for MailChimp.Types.MCExceptionModule: type is not visible to exported or assembly(MailChimp.Fakes).
+C:\Users\Christian\Downloads\lego\LEGO Test\Fakes\MailChimp.fakes : warning : Cannot generate shim for MailChimp.Types.NestedDictHelper: type is not visible to exported or assembly(MailChimp.Fakes).
+C:\Users\Christian\Downloads\lego\LEGO Test\Fakes\MailChimp.fakes : warning : Cannot generate shim for MailChimp.Types.Operators: type is not visible to exported or assembly(MailChimp.Fakes).
+C:\Users\Christian\Downloads\lego\LEGO Test\Fakes\MailChimp.fakes : warning : Cannot generate shim for MailChimp.Types.MCNull: type is not visible to exported or assembly(MailChimp.Fakes).
+C:\Users\Christian\Downloads\lego\LEGO Test\Fakes\MailChimp.fakes : warning : Cannot generate shim for MailChimp.Types.InputModule+aux@292-1: type is not visible to exported or assembly(MailChimp.Fakes).
+C:\Users\Christian\Downloads\lego\LEGO Test\Fakes\MailChimp.fakes : warning : Cannot generate shim for MailChimp.Types.InputModule+aux@293-2: type is not visible to exported or assembly(MailChimp.Fakes).
+C:\Users\Christian\Downloads\lego\LEGO Test\Fakes\MailChimp.fakes : warning : Cannot generate shim for MailChimp.Types.InputModule+aux@293-3: type is not visible to exported or assembly(MailChimp.Fakes).
+C:\Users\Christian\Downloads\lego\LEGO Test\Fakes\MailChimp.fakes : warning : Cannot generate shim for MailChimp.Types.InputModule+aux@293-4: type is not visible to exported or assembly(MailChimp.Fakes).
+C:\Users\Christian\Downloads\lego\LEGO Test\Fakes\MailChimp.fakes : warning : Cannot generate shim for MailChimp.Types.InputModule+aux@293-5: type is not visible to exported or assembly(MailChimp.Fakes).
+C:\Users\Christian\Downloads\lego\LEGO Test\Fakes\MailChimp.fakes : warning : Cannot generate shim for MailChimp.Types.InputModule+aux@293-6: type is not visible to exported or assembly(MailChimp.Fakes).
+C:\Users\Christian\Downloads\lego\LEGO Test\Fakes\MailChimp.fakes : warning : Cannot generate shim for MailChimp.Types.InputModule+buildQueryString@303: type is not visible to exported or assembly(MailChimp.Fakes).
+C:\Users\Christian\Downloads\lego\LEGO Test\Fakes\MailChimp.fakes : warning : Cannot generate shim for MailChimp.Types.InputModule+buildQueryString@303-1: type is not visible to exported or assembly(MailChimp.Fakes).
+C:\Users\Christian\Downloads\lego\LEGO Test\Fakes\MailChimp.fakes : warning : Cannot generate shim for MailChimp.Types.InputHelper: type is not visible to exported or assembly(MailChimp.Fakes).
+C:\Users\Christian\Downloads\lego\LEGO Test\Fakes\MailChimp.fakes : warning : Cannot generate shim for MailChimp.Types.ReflectionHelper: type is not visible to exported or assembly(MailChimp.Fakes).
+C:\Users\Christian\Downloads\lego\LEGO Test\Fakes\MailChimp.fakes : warning : Cannot generate shim for MailChimp.Types.Common: type is not visible to exported or assembly(MailChimp.Fakes).
+C:\Users\Christian\Downloads\lego\LEGO Test\Fakes\MailChimp.fakes : warning : Cannot generate shim for <StartupCode$MailChimp>.$Common: type is not supported because of internal limitations.
+C:\Users\Christian\Downloads\lego\LEGO Test\Fakes\MailChimp.fakes : warning : Cannot generate shim for <StartupCode$MailChimp>.$AssemblyInfo: type is not supported because of internal limitations.
+C:\Users\Christian\Downloads\lego\LEGO Test\Fakes\MailChimp.fakes : warning : Cannot generate shim for <StartupCode$MailChimp>.$.NETFramework\,Version=v4.0.AssemblyAttributes: type is not visible to exported or assembly(MailChimp.Fakes).
+C:\Users\Christian\Downloads\lego\LEGO Test\Fakes\MailChimp.fakes : warning : compilation failed, retrying without Code Contracts

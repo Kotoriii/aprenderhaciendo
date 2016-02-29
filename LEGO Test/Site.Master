@@ -1,0 +1,256 @@
+<%@ Master Language="C#" AutoEventWireup="true" CodeBehind="Site.master.cs" Inherits="LEGO_Test.SiteMaster" %>
+
+<!DOCTYPE html>
+
+<html lang="en">
+<head runat="server">
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title><%: Page.Title %> Empresa Pi Portfolio</title>
+    <% 
+        if (Request["cerrarSesion"] != null) {
+            Session["usuario"] = null;
+        }
+         %>
+    <asp:PlaceHolder runat="server">
+        <%: Scripts.Render("~/bundles/modernizr") %>
+    </asp:PlaceHolder>
+    <webopt:BundleReference runat="server" Path="~/Content/css" />
+    <link href="favicon.ico" rel="shortcut icon" type="image/x-icon" />
+
+
+
+</head>
+<body>
+    <form runat="server">
+        <asp:ScriptManager runat="server">
+            <Scripts>
+                <%--To learn more about bundling scripts in ScriptManager see http://go.microsoft.com/fwlink/?LinkID=301884 --%>
+                <%--Framework Scripts--%>
+                <asp:ScriptReference Name="MsAjaxBundle" />
+                <asp:ScriptReference Name="jquery" />
+                <asp:ScriptReference Name="bootstrap" />
+                <asp:ScriptReference Name="respond" />
+                <asp:ScriptReference Name="WebForms.js" Assembly="System.Web" Path="~/Scripts/WebForms/WebForms.js" />
+                <asp:ScriptReference Name="WebUIValidation.js" Assembly="System.Web" Path="~/Scripts/WebForms/WebUIValidation.js" />
+                <asp:ScriptReference Name="MenuStandards.js" Assembly="System.Web" Path="~/Scripts/WebForms/MenuStandards.js" />
+                <asp:ScriptReference Name="GridView.js" Assembly="System.Web" Path="~/Scripts/WebForms/GridView.js" />
+                <asp:ScriptReference Name="DetailsView.js" Assembly="System.Web" Path="~/Scripts/WebForms/DetailsView.js" />
+                <asp:ScriptReference Name="TreeView.js" Assembly="System.Web" Path="~/Scripts/WebForms/TreeView.js" />
+                <asp:ScriptReference Name="WebParts.js" Assembly="System.Web" Path="~/Scripts/WebForms/WebParts.js" />
+                <asp:ScriptReference Name="Focus.js" Assembly="System.Web" Path="~/Scripts/WebForms/Focus.js" />
+                <asp:ScriptReference Name="WebFormsBundle" />
+                <%--Site Scripts--%>
+            </Scripts>
+        </asp:ScriptManager>
+
+        <nav class="navbar navbar-inverse  navbar-fixed-top" role="navigation" style="background-color: #e5e5e5">
+            <!-- <asp:Image CssClass="logo" runat="server" ID="LOGO" AlternateText="Aprender Haciendo" ImageUrl="~/Images/GraficosPagina/AprenderHaciendoLogo.png" /> -->
+            <div class="hidden-xs">
+                <img src="Images/GraficosPagina/AprenderHaciendoLogo.png" alt="" style="width: 20%;height:90px; position: absolute; z-index: 4; margin-top: inherit; min-width: 240px; max-width: 300px" />
+            </div>
+            <div class="container-fluid">
+                <!-- Brand and toggle get grouped for better mobile display -->
+                <div class="navbar-header">
+                    <button type="button" class="navbar-toggle" data-toggle="collapse" data-target="#bs-example-navbar-collapse-1">
+                        <span class="sr-only">Toggle navigation</span>
+                        <span class="icon-bar"></span>
+                        <span class="icon-bar"></span>
+                        <span class="icon-bar"></span>
+                    </button>
+                    <div class="center-block">
+                    </div>
+                </div>
+
+                <!-- Collect the nav links, forms, and other content for toggling -->
+                <div class="collapse navbar-collapse " id="bs-example-navbar-collapse-1">
+
+                    <ul class="nav navbar-nav navbar-right  ">
+
+
+                        <% 
+        LEGO_Test.Clases.Usuario usuario = null;
+        if (Session["usuario"] != null)
+       {
+            usuario = (LEGO_Test.Clases.Usuario)Session["usuario"];
+       } %>
+
+                        <!-- Muestra que el usuario es "Admin" -->
+                        <li>
+                            <a runat="server" id="adminLink" visible="false" href="~/Admin/PaginaAdmin">
+                                <h4>Admin</h4>
+                            </a>
+                        </li>
+
+                        <li class="nav-elem hidden-xs"><a href="Default.aspx">
+
+                            <h4 class="tabs">Inicio</h4>
+                        </a></li>
+                        <li class="nav-elem visible-xs"><a href="Default.aspx" style="background-color: #716f6f; color: #f5f5f5; border-radius: 5px">
+
+                            <h4 class="tabs">Inicio</h4>
+                        </a></li>
+
+
+
+                        <li class="dropdown nav-elem">
+
+
+                            <a href="#" class="hidden-xs dropdown-toggle" id="dropdownMenu1" data-toggle="dropdown">
+                                <h4 style="margin-top: 30%;">Cursos
+                                <b class="caret"></b></h4>
+
+                            </a>
+                            <a href="#" class="dropdown-toggle visible-xs" style="background-color: #716f6f; color: #f5f5f5; border-radius: 5px" id="dropdownMenu12" data-toggle="dropdown">
+                                <h4>Cursos
+                                <b class="caret" style="color: #f5f5f5"></b></h4>
+                            </a>
+                            <ul class="dropdown-menu">
+
+                                <li class="divider"></li>
+
+                                <li><a href="PaginaCursos.aspx?curso=Máquinas%20Simples">
+                                    <h4>Máquinas Simples</h4>
+                                </a></li>
+
+                                <li class="divider"></li>
+
+                                <li><a href="PaginaCursos.aspx?curso=WeDo">
+                                    <h4>WeDo</h4>
+                                </a></li>
+
+                                <li class="divider"></li>
+
+                                <li><a href="PaginaCursos.aspx?curso=MindStorm">
+                                    <h4>Mindstorms</h4>
+                                </a></li>
+                                <li class="divider"></li>
+                            </ul>
+
+                        </li>
+
+                        <li class="nav-elem hidden-xs"><a href="Productos.aspx">
+                            <h4 class="tabs">Productos</h4>
+                        </a></li>
+
+                        <li class="nav-elem visible-xs"><a href="Productos.aspx" style="background-color: #716f6f; color: #f5f5f5; border-radius: 5px">
+                            <h4 class="tabs">Productos</h4>
+                        </a></li>
+
+                        <!--  <li class="hidden-md hidden-sm nav-elem"><a href="#">
+                            <h4 class="tabs">Acerca de Nosotros</h4>
+                        </a></li> -->
+
+
+
+                        <li class="hidden-md hidden-sm nav-elem hidden-xs"><a href="PreguntasFrecuentes.aspx">
+                            <h4 class="tabs">Preguntas Frecuentes</h4>
+                        </a></li>
+                        <li class="visible-xs nav-elem"><a href="PreguntasFrecuentes.aspx" style="background-color: #716f6f; color: #f5f5f5; border-radius: 5px">
+                            <h4 class="tabs">Preguntas Frecuentes</h4>
+                        </a></li>
+
+                        <li class="hidden-md hidden-sm nav-elem hidden-xs"><a href="Contacto.aspx ">
+                            <h4 class="tabs">Contacto</h4>
+                        </a></li>
+                        <li class="visible-xs nav-elem"><a href="Contacto.aspx " style="background-color: #716f6f; color: #f5f5f5; border-radius: 5px">
+                            <h4 class="tabs">Contacto</h4>
+                        </a></li>
+
+                        <li class="hidden-md hidden-sm nav-elem hidden-xs"><a href="Olimpiadas.aspx">
+                            <h4 class="tabs">Olimpiadas</h4>
+                        </a></li>
+                        <li class=" nav-elem visible-xs"><a href="Olimpiadas.aspx" style="background-color: #716f6f; color: #f5f5f5; border-radius: 5px">
+                            <h4 class="tabs">Olimpiadas</h4>
+                        </a></li>
+                        <li class="nav-elem visible-xs">
+                            <a href="Carrito.aspx" type="button" class="nav-elem but-lg" style="background-color: #716f6f; color: #f5f5f5; border-radius: 5px">>
+                                <span class="glyphicon glyphicon-shopping-cart"></span>
+                                <h4>Carrito</h4>
+                            </a>
+                        </li>
+
+                        <li class="hidden-xs">
+                            <a href="Carrito.aspx" type="button" class="nav-elem but-lg">
+                                <span class="glyphicon glyphicon-shopping-cart"></span>
+                                <h4>Carrito</h4>
+                            </a>
+                        </li>
+                    </ul>
+
+
+                </div>
+                <!-- /.navbar-collapse -->
+            </div>
+            <!-- /.container-fluid -->
+        </nav>
+
+
+
+        <!-- menu para cuando la pagina es muy peque_a -->
+        <div style="width: 100%; height: 10%; background-color: #8debfc; margin-top: 1%">
+            <ul class="nav nav-pills nav-justified visible-sm visible-md">
+                <!-- <li class="but-lg"><a href="#">Acerca de Nosotros</a></li> -->
+                <li class="but-lg"><a href="#">Preguntas Frecuentes</a></li>
+                <li class="but-lg"><a href="#">Olimpiadas</a></li>
+                <li class="but-lg "><a href="#">Contacto</a></li>
+
+            </ul>
+        </div>
+        <% 
+            String menuUsuario = "";
+            if (usuario != null)
+            {
+
+                menuUsuario = "<div id=\"inicioSes\" class=\"pull-right\" style=\"margin-right:4%\">"
+                    + "<h4><span class=\"glyphicon glyphicon-user\"></span> Bienvenido " + usuario.getNombreUsuario() + " / <a href=\"ModificarCuenta.aspx\"><u>Modificar Cuenta</u></a> / <a href=\"Default.aspx?cerrarSesion=5443fde\"><u>Cerrar Sesion</u></a> "
+                    + "</div><br />";
+            }
+            else {
+                menuUsuario = "<div  id=\"inicioSes\" class=\"pull-right\" style=\"margin-right:4%\">"
+                    + "<h4><u> <a href=Login.aspx>Iniciar Sesion</u></a>  /  <u><a href=Registrarse.aspx>Registrarse</u></a> </h4> "
+                    + "</div><br />";
+            }
+        %>
+        <%= menuUsuario %>
+        <div class="pull-right">
+        </div>
+
+
+        <div class="body-content">
+            <br />
+            <br />
+            <asp:ContentPlaceHolder ID="MainContent" runat="server">
+            </asp:ContentPlaceHolder>
+            <hr />
+            <footer class="hidden-xs">
+                <ul class="nav nav-justified">
+                    <li><a href="Default.aspx">Inicio</a></li>
+                    <li><a href="Cursos.aspx">Cursos</a></li>
+                    <li><a href="Contacto.aspx">Contacto</a></li>
+                    <li><a href="Olimpiadas.aspx">Olimpiadas</a></li>
+                    <li><a href="PreguntasFrecuentes.aspx">Preguntas Frecuentes</a></li>
+                    <li><a href="Productos.aspx">Productos</a></li>
+                    <!-- <li><a href="AcercaDeNosotros.aspx">Acerca de Nosotros</a></li> -->
+                    <li><a href="Carrito.aspx">Carrito</a></li>
+                    <% String ap ="";
+                       if(usuario != null && usuario.getPermiso() == "admin"){
+                    ap = "<li><a href=\"PaginaAdmin.aspx\">Administracion</a></li>";
+                    }
+                    %>
+                    <%= ap %>
+                </ul>
+                <p></p>
+            </footer>
+        </div>
+    </form>
+    <script type="text/javascript" charset="utf-8">
+        $(document).ready(function () {
+            $("a[rel^='prettyPhoto']").prettyPhoto({
+                show_title: false,
+                overlay_gallery: false,
+            });
+        });
+    </script>
+</body>
+</html>
