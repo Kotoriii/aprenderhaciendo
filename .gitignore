@@ -1,3 +1,6 @@
-/LEGO\ Test/obj/
-/LEGO.v12.suo
-/LEGO\ Test/LEGO.csproj
+bin/
+obj/
+*.suo
+*.user
+/Conexion.cs
+/Web.config
