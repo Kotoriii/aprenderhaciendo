@@ -1,6 +1,4 @@
 bin/
 obj/
-*.suo
-*.user
 /Conexion.cs
 /Web.config
