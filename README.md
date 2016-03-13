@@ -4,4 +4,5 @@
 
 We originally used Bitbucket to host a private Repo and commits, so the whole project will appear as a single commit over here on Github.
 
-Creators: A. Tupini, C. Bendaña, C. Mack & C. Oviedo
+<b>Creators:</b> 
+  A. Tupini, C. Bendaña, C. Mack & C. Oviedo
